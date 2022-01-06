@@ -12,7 +12,8 @@ setup(
     author='Frédéric Dux',
     author_email="duxfrederic@gmail.com",
     url="https://github.com/duxfrederic/titration-fitting/",
-    long_description=long_description,
+    download_url="https://github.com/duxfrederic/titration-fitting/archive/refs/tags/v0.1.3.tar.gz",
+    long_description="description at https://github.com/duxfrederic/titration-fitting/",
     license='MIT',
     packages=find_packages(),
     install_requires=[

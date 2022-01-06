@@ -1,3 +1,4 @@
+# titrationFitter
 This repository implements a simulation of a titration, for a system of two main components,
 N species and N-1 equilibrium constants. Some species (composed of a combination of a metal (M) and of a ligand (L), with a given or unknown UV-VIS spectrum) are contained in a flask. More of a solution of a ligand or of the metal (the titrating agent, or titrant) is added to the flask, modifying the concentrations of the species depending on the metal/ligand concentrations ratio.  The UV-VIS spectra are recorded experimentally at each step of the titration, and the routines contained in this script try to obtain a best fit of the data by finding the equilibrium constants that will describe best the concentrations of the species. If the UV-VIS spectra of a given species is not known, its values will be added to the variables to be optimised.
 
@@ -43,3 +44,4 @@ ML3  = Component(buildblocks=[ML2,L],  coeffs=[1,1], ......)
 
 The equilibrium constants are then given in terms of the intermediate species, and will all be of the same order of magnitude. This will greatly help the concentration solver and you will be a lot less frustrated with the fitting process. 
 Try it in the example jupyter-notebook given above before moving on with your own systems. 
+
