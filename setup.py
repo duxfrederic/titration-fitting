@@ -6,12 +6,12 @@ with open("README.md", 'r') as f:
     
 setup(
     name='titrationFitter',
-    version='0.1.2',
+    version='0.1.3',
     python_requires='>3.7.0',
     description='Extracts binding constant from titration experiments',
     author='Frédéric Dux',
     author_email="duxfrederic@gmail.com",
-    url="https://gitlab.epfl.ch/dux/titration-fitting/",
+    url="https://github.com/duxfrederic/titration-fitting/",
     long_description=long_description,
     license='MIT',
     packages=find_packages(),
